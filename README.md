@@ -28,7 +28,7 @@ The **EAB** is a maintenance-free **solid-state energy converter**. Following th
 Strategic vision by **ThinkTank (Marco Rathjens)**; technical logic-hardening by the Multi-Model AI Council.
 
 ### 🛡️ Multi-Model Audit Trajectory
-*   **ChatGPT (4o):** Initial calculus and modular form-factor definition.
+*   **ChatGPT (4o):** 
 *   **Qwen (3.5 Max):** **Conditional Approval.** Validated hybrid-synergy; enforced MXene-encapsulation.
 *   **DeepSeek (R1):** **Validated & Optimized.** Identified "Energetic Leak"; enforced **Exponential Cone Topology** and **Active SR**.
 *   **Claude (4.6 Sonnet):** **Logic-Hardening.** Identified critical No-Op/IPC gaps in V2.1. **Mandated V2.2 Refactoring** (Real-time FFT, Kramers-Rate SR-Gain, ZMQ-Bridge).
