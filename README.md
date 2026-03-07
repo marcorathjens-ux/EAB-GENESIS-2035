@@ -27,10 +27,10 @@ The **EAB** is a maintenance-free **solid-state energy converter** designed for 
 Strategic vision by **ThinkTank (Marco Rathjens)**; technical logic-hardening by the Multi-Model AI Council.
 
 ### 🛡️ Multi-Model Audit Trajectory (Final Logic Clearance)
-*   **R1 (DeepSeek):** Identified thermodynamic leaks; enforced **Exponential Cone Topology**.
-*   **R2 (Qwen):** Validated hybrid-synergy; mandated **MXene-Graphene encapsulation**.
-*   **R3 (Claude 3.7/4.6):** Identified critical logic gaps (No-Op filters, IPC-Gaps).
-*   **R4 (Claude 3.7/4.6 - Final):** **FULL LOGICAL CLEARANCE.** Validated V2.4 fixes: Non-blocking ZMQ, Atomic API corrections, and Kramers-Rate scaling.
+*   **R1 (DeepSeek R1):** Identified thermodynamic leaks; enforced **Exponential Cone Topology**.
+*   **R2 (Qwen 3.5 Pro):** Validated hybrid-synergy; mandated **MXene-Graphene encapsulation**.
+*   **R3 (Claude Sonnet 4.6):** Identified critical logic gaps (No-Op filters, IPC-Gaps).
+*   **R4 (Claude Sonnet 4.6 - Final):** **FULL LOGICAL CLEARANCE.** Validated V2.4 fixes: Non-blocking ZMQ, Atomic API corrections, and Kramers-Rate scaling.
 
 **Current Audit Status:** 🟢 **Architectural Logic: INTERNALLY CONSISTENT (10/10).**  
 **Physical Status:** 🟡 **Physical Verification: Pending (Phase 1: FSI-Simulation).**
