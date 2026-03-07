@@ -40,5 +40,13 @@ The **EAB** is a maintenance-free **solid-state energy converter**. Through a mu
 
 ---
 
-### ⚖️ License
-This project is licensed under the **MIT License** - see the `LICENSE` file for details.
+## ⚖️ License & Open Source
+This documentation and all related hardware designs and software code for the **EAB-GENESIS** are licensed under the **CERN Open Hardware Licence Version 2 – Permissive (CERN-OHL-P v2)**.
+
+*   **Permissions:** You may redistribute and modify this documentation and make products using it.
+*   **Conditions:** You must keep the copyright notice and the license text on all copies and derivative works.
+*   **Disclaimer:** Distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY.
+
+> **Note:** For the full license text, see the [LICENSE](LICENSE) file in this repository or visit [https://ohwr.org](https://ohwr.org).
+
+
