@@ -8,6 +8,8 @@
 ## 🌀 Vision: The Electro-Active Bloom (EAB)
 The **EAB** is a maintenance-free **solid-state energy converter**. Through a multi-layered AI-Council audit, the system has transitioned from a passive concept to a logically hardened, software-integrated architecture. 
 
+> 💡 **Architect's Statement:** [Read the full vision and the story behind EAB-GENESIS here.](VISION.md)
+
 > **Axiom:** "We do not compute to function – we shine to understand."
 
 ---
