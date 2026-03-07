@@ -1,31 +1,31 @@
-# EAB-GENESIS: Active Stochastic Resonance (ASR) Controller
-# Logic: Using environmental noise to lower TENG activation thresholds.
-# Based on Audit-R1: Bifurcation Control Loop.
-
 using DifferentialEquations
+using ZMQ, JSON
+
+# ZMQ Bridge Setup
+context = Context()
+socket = Socket(context, PULL)
+ZMQ.bind(socket, "tcp://*:5555")
 
 function asr_dynamics!(du, u, p, t)
-    # u[1] = Displacement of the fluid-bearing
-    # p[1] = alpha (Bifurcation parameter)
-    # p[2] = b (Damping coefficient)
-    # p[3] = k (Spring constant)
-    
-    alpha, b, k = p
-    # Nonlinear Double-Well Potential: x_dot = alpha*x - x^3
-    du[1] = alpha*u[1] - u[1]^3 - (b/k)*u[1]
+    alpha, b, k, sigma = p
+    alpha_eff = alpha - b/k
+    # GUARD: Ensure double-well potential exists
+    if alpha_eff <= 0
+        alpha_eff = 0.001 # Minimal recovery state
+    end
+    du[1] = alpha_eff * u[1] - u[1]^3
 end
 
 function noise_diffusion(u, p, t)
-    # Gamma: Noise coupling strength
-    return 0.15 
+    return p[4] # Dynamic Sigma from ZMQ
 end
 
-# Simulation of the active resonance state
-u0 = [0.01]
-tspan = (0.0, 100.0)
-p = [0.5, 0.1, 1.0] # Optimized alpha for sub-threshold triggering
+# Optimized Start Point: Stable Minimum instead of Peak
+p = [0.5, 0.1, 1.0, 0.15] # [alpha, b, k, sigma]
+u0 = [sqrt(0.5 - 0.1/1.0)] # x0 = sqrt(alpha_eff)
 
+tspan = (0.0, 1.0) # Small intervals for real-time sync
 prob = SDEProblem(asr_dynamics!, noise_diffusion, u0, tspan, p)
-sol = solve(prob, SRIW1())
 
-println("ASR-Controller: Bifurcation State Optimized for TENG-Triggering.")
+println("Julia Controller V2.2: Awaiting ZMQ-data...")
+# In a real loop, you would call: msg = JSON.parse(String(ZMQ.recv(socket)))
