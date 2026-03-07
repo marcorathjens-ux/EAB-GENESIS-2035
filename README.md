@@ -37,3 +37,8 @@ The **EAB** is a maintenance-free **solid-state energy converter**. Through a mu
 3.  **Phase 3 (2031-35):** Final material transition (FL-QMB Graphene) and industrial scaling.
 
 💡 **Detailed Insight:** This project utilizes the **Symbiotic Methodology — Citable Preprint DOI: 10.5281/zenodo.18877077**
+
+---
+
+### ⚖️ License
+This project is licensed under the **MIT License** - see the `LICENSE` file for details.
