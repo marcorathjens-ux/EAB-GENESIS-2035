@@ -1,7 +1,7 @@
 
 # 📑 PROJECT: EAB-GENESIS-2035
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18923300.svg)](https://doi.org/10.5281/zenodo.18923300)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19020398.svg)](https://doi.org/10.5281/zenodo.19020398)
 
 **System:** Electro-Active Bloom (EAB) / Active Impulse-Coupler  
 **Methodology:** [Symbiotic Architect Methodology](https://doi.org/10.5281/zenodo.18877077) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18877077.svg)](https://doi.org/10.5281/zenodo.18877077)  
